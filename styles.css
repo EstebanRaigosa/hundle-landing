@@ -1,0 +1,13 @@
+body {    
+    background-color: blueviolet;
+}
+
+.principal {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
