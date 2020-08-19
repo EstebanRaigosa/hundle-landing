@@ -1,5 +1,8 @@
-body {    
+body {
     background-color: blueviolet;
+    color: white;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .principal {
@@ -11,3 +14,7 @@ footer {
     justify-content: flex-end;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 700;
+}
