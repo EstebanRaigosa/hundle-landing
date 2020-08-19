@@ -1,3 +1,5 @@
+/* Social icons */
+
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?y3vunr');
@@ -35,38 +37,67 @@
     content: "\e902";
   }
 
-
+/* My styles */
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: hsl(257, 40%, 49%);
     background-image: url(images/bg-desktop.svg);
     color: white;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 400;
-    
+}
+
+.container {
+    margin: 0 70px;
+}
+
+.logo {
+    height: 60px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .principal {
     display: flex;
 }
 
+.principal-img {
+    margin-right: 50px;
+}
+
+.principal-text {
+    padding-top: 30px;
+}
+
+.text {
+    margin-bottom: 30px;
+}
 footer {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 30px;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .registry-link {
     text-decoration: none;
     background-color: white;
-    color: blueviolet;
+    color: hsl(257, 40%, 49%);
     padding: 10px 50px;
     border-radius: 50px;
-    box-shadow: 0px 3px 5px 0px black; 
+    box-shadow: 0px 3px 5px 0px black;
+    margin-top: 500px;
 }
 
 a {
@@ -75,4 +106,5 @@ a {
     border: 1px solid white;
     border-radius: 100%;
     padding: 10px;
+    margin: 5px;
 }
