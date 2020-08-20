@@ -55,8 +55,8 @@ body {
 
 .logo {
     height: 60px;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 .principal {
@@ -72,7 +72,7 @@ body {
 }
 
 .text {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 footer {
     display: flex;
@@ -105,6 +105,104 @@ a {
     color: white;
     border: 1px solid white;
     border-radius: 100%;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
+@media screen and (max-width:1440px){
+
+}
+
+@media screen and (max-width:1024px){
+    
+    .principal-text {
+        padding-top: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    img {
+        width: 450px;
+    }
+
+    .logo {
+        width: 150px;
+        margin-top: 30px ;
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .principal{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .principal-img {
+        margin: 0;
+        margin-bottom: 60px;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .button {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .registry-link {
+        padding: 10px 70px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    footer {
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:375px){
+    .logo {
+        width: 130px;
+    }
+
+    .container {
+        margin: 0 30px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .registry-link {
+        font-size: 14px;
+    }
 }
